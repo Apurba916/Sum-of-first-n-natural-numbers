@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+   int n;
+   printf("Enter up to which number you want sum of:\n");
+   scanf("%d", &n);
+   int sum = 0;
+   for(int i = 0; i<= n; i++){
+       sum = sum + i;
+   }
+   printf("The sum of the first %d natural number is %d.", n, sum);
+   return 0;
+}
